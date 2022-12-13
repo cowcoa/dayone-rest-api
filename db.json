@@ -12,6 +12,6 @@
     "name": "typicode"
   },
   "signInResult": {
-    "description": "A HTTP callback from AWS Cognito."
+    "description": "Sign-in callback from AWS Cognito."
   }
 }
