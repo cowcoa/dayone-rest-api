@@ -12,6 +12,23 @@
     "name": "typicode"
   },
   "signInResult": {
-    "description": "Sign-in callback from AWS Cognito."
+    "RESPONSE": {
+      "description": "Sign-in callback from AWS Cognito."
+    }
+  },
+  "code-to-token": {
+    "HEADERS": [
+      {"x-api-key": "1234567890abcdefghijklmnopquvwxyzABCDEFG"}
+    ],
+    "POST": {
+      "authzCode": "a456e1ca-7341-43bf-a270-62b7e335a9c1"
+    },
+    "RESPONSE": {
+      "id_token": "eyJraWQiOiJ3S2diYUNNMHA3",
+      "access_token": "eyJraWQiOiI2OTFDMXVqQXhma",
+      "refresh_token": "eyJjdHkiOiJKV1Qi",
+      "expires_in": 3600,
+      "token_type": "Bearer"
+    }
   }
 }
