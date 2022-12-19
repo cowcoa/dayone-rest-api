@@ -12,8 +12,8 @@
     "name": "typicode"
   },
   "signInResult": {
-    "RESPONSE": {
-      "description": "Sign-in callback from AWS Cognito."
+    "POST:tokens/exchange": {
+      "authzCode": "[code]"
     }
   },
   "code-to-token": {
