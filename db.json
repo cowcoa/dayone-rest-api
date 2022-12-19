@@ -17,7 +17,7 @@
     }
   },
   "tokens/exchange": {
-    "METHOD": "POST"
+    "METHOD": "POST",
     "HEADERS": [
       {"x-api-key": "1234567890abcdefghijklmnopquvwxyzABCDEFG"}
     ],
