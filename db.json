@@ -16,11 +16,12 @@
       "authzCode": "[code]"
     }
   },
-  "code-to-token": {
+  "tokens/exchange": {
+    "METHOD": "POST"
     "HEADERS": [
       {"x-api-key": "1234567890abcdefghijklmnopquvwxyzABCDEFG"}
     ],
-    "POST": {
+    "BODY": {
       "authzCode": "a456e1ca-7341-43bf-a270-62b7e335a9c1"
     },
     "RESPONSE": {
