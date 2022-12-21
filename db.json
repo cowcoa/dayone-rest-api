@@ -37,7 +37,7 @@
     "HEADERS": [
       {"x-api-key": "[API Gateway key]"},
       {"Authorization": "Cognito access_token"},
-      {"Content-Type": "application/json"},
+      {"Content-Type": "application/json"}
     ],
     "BODY": {
       "refreshToken": "[Cognito refresh_token]"
