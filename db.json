@@ -16,7 +16,7 @@
       "authzCode": "[code]"
     }
   },
-  "tokensexchange": {
+  "tokens_exchange": {
     "METHOD": "POST",
     "HEADERS": [
       {"x-api-key": "1234567890abcdefghijklmnopquvwxyzABCDEFG"}
@@ -30,6 +30,21 @@
       "refresh_token": "eyJjdHkiOiJKV1Qi",
       "expires_in": 3600,
       "token_type": "Bearer"
+    }
+  },
+  "tokens_refresh": {
+    "METHOD": "POST",
+    "HEADERS": [
+      {"x-api-key": "[API Gateway key]"},
+      {"Authorization": "Cognito access_token"},
+      {"Content-Type": "application/json"},
+    ],
+    "BODY": {
+      "refreshToken": "[Cognito refresh_token]"
+    },
+    "RESPONSE": {
+      "id_token": "eyJraWQiOiJ3S2diYUNNMHA3",
+      "access_token": "eyJraWQiOiI2OTFDMXVqQXhma",
     }
   }
 }
