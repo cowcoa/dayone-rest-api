@@ -15,5 +15,14 @@
     "POST:tokens/exchange": {
       "authzCode": "[code]"
     }
+  },
+  "tokensexchange": {
+    "RESPONSE": {
+      "id_token": "eyJraWQiOiJ3S2diYUNNMHA3",
+      "access_token": "eyJraWQiOiI2OTFDMXVqQXhma",
+      "refresh_token": "eyJjdHkiOiJKV1Qi",
+      "expires_in": 3600,
+      "token_type": "Bearer"
+    }
   }
 }
