@@ -1,50 +1,7 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "signInResult": {
     "POST:tokens/exchange": {
       "authzCode": "[code]"
-    }
-  },
-  "tokens_exchange": {
-    "METHOD": "POST",
-    "HEADERS": [
-      {"x-api-key": "1234567890abcdefghijklmnopquvwxyzABCDEFG"}
-    ],
-    "BODY": {
-      "authzCode": "a456e1ca-7341-43bf-a270-62b7e335a9c1"
-    },
-    "RESPONSE": {
-      "id_token": "eyJraWQiOiJ3S2diYUNNMHA3",
-      "access_token": "eyJraWQiOiI2OTFDMXVqQXhma",
-      "refresh_token": "eyJjdHkiOiJKV1Qi",
-      "expires_in": 3600,
-      "token_type": "Bearer"
-    }
-  },
-  "tokens_refresh": {
-    "METHOD": "POST",
-    "HEADERS": [
-      {"x-api-key": "[API Gateway key]"},
-      {"Authorization": "Cognito access_token"},
-      {"Content-Type": "application/json"}
-    ],
-    "BODY": {
-      "refreshToken": "[Cognito refresh_token]"
-    },
-    "RESPONSE": {
-      "id_token": "eyJraWQiOiJ3S2diYUNNMHA3",
-      "access_token": "eyJraWQiOiI2OTFDMXVqQXhma",
     }
   }
 }
